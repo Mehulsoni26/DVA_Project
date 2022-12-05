@@ -604,4 +604,5 @@ def user_input(spotify_user_id):
     return "Recommendation output csv exported for UI vizualization"
 
 
-user_input("31isrsytv6r4x6tg3biw3mfaax2i")
+spotify_user_id = input()
+user_input(spotify_user_id)
